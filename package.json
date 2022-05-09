@@ -1,0 +1,59 @@
+{
+  "name": "react-professionalbackend",
+  "version": "1.0.0",
+  "description": "This is a Simple CRM System back-end for customer services.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules\\.bin\\tsc",
+    "cb": "node_modules\\.bin\\tsc --watch",
+    "start": "node server.js",
+    "start-production": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iomegak12/react-professionalbackend.git"
+  },
+  "keywords": [
+    "customers",
+    "react",
+    "backend"
+  ],
+  "author": "Ramkumar J Damodaran",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iomegak12/react-professionalbackend/issues"
+  },
+  "homepage": "https://github.com/iomegak12/react-professionalbackend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.11.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "socket.io": "^2.1.1",
+    "tslog": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.16.0",
+    "@types/express-jwt": "0.0.40",
+    "@types/jasmine": "^3.6.2",
+    "@types/jsonwebtoken": "^8.3.0",
+    "@types/karma": "^5.0.1",
+    "@types/mongoose": "^5.3.1",
+    "@types/morgan": "^1.9.2",
+    "@types/socket.io": "^2.1.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "istanbul": "^0.4.5",
+    "jasmine": "^3.6.3",
+    "karma": "^5.2.3",
+    "tslint": "^6.1.3",
+    "typescript": "^4.1.2"
+  }
+}

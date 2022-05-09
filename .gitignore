@@ -1,0 +1,4 @@
+node_modules
+environments/development.env
+environments/staging.env
+environments/production.env
